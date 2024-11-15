@@ -1,0 +1,89 @@
+/* 
+
+        Index
+
+*/
+/* General Styles */
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Centering the Button */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#enterButton {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.svg-button img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Fade-In and Fade-Out Animation Cover */
+#cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    opacity: 0;
+    z-index: -1; /* Initially behind the content */
+    transition: opacity 0.7s ease-in-out;
+}
+
+/* Cover states for different pages */
+body:not(.loaded) #cover {
+    opacity: 1; /* Initial opacity for ease-out effect on page load */
+}
+/* 
+
+        Calendar Selection
+
+*/
+
+.year-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.year-container h1 {
+    margin-bottom: 20px;
+}
+
+.year-container ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 24px;
+}
+
+.year-container li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.year-container li:hover {
+    color: #0073e6;
+}
