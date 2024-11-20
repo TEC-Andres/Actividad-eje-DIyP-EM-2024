@@ -1,0 +1,24 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+	<title>calendar button-svg</title>
+	<defs>
+		<image width="256" height="58" id="img1" href="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDI1NiA1OCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSI1OCI+Cgk8dGl0bGU+aGV5PC90aXRsZT4KCTxzdHlsZT4KCQkuczAgeyBmaWxsOiAjZWM1MDQ5IH0gCgk8L3N0eWxlPgoJPHBhdGggaWQ9IlNoYXBlIDEiIGNsYXNzPSJzMCIgZD0ibTUwIDBoMTU2YzI3LjYgMCA1MCAyMi40IDUwIDUwdjEzYzAgMjcuNi0yMi40IDUwLTUwIDUwaC0xNTZjLTI3LjYgMC01MC0yMi40LTUwLTUwdi0xM2MwLTI3LjYgMjIuNC01MCA1MC01MHoiLz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #000000 } 
+		.s1 { fill: #ececec } 
+		.t2 { font-size: 180px;fill: #033333;font-weight: 700;font-family: "Helvetica-Bold", "Helvetica" } 
+		.t3 { font-size: 47px;fill: #eeeeee;font-weight: 700;font-family: "Helvetica-Bold", "Helvetica" } 
+	</style>
+	<path id="Layer 1" class="s0" d=""/>
+	<path id="Shape 1" class="s1" d="m49.6 25.5l156 1.6c27.6 0 50.4 2.9 50.4 30.5v148.4c0 27.6-22.4 50-50 50h-156c-27.6 0-50-22.4-50-50v-148.4c0-27.6 22-32.1 49.6-32.1z"/>
+	<use id="hey (2)" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+	<text id="8" style="transform: matrix(1,0,0,1,128,219)" >
+		<tspan x="-50.1" y="0" class="t2">8
+</tspan>
+	</text>
+	<text id="2011" style="transform: matrix(1,0,0,1,128,44)" >
+		<tspan x="-51" y="0" class="t3">2</tspan><tspan  y="0" class="t3">0</tspan><tspan  y="0" class="t3">1</tspan><tspan  y="0" class="t3">1
+</tspan>
+	</text>
+</svg>
