@@ -13,7 +13,7 @@ if (enterButton) {
 
             // After the animation, redirect to the calendar page
             setTimeout(() => {
-                window.location.href = "calendar.html"; 
+                window.location.href = "pages/calendar.html"; 
             }, 700); // Match the CSS transition duration (0.7s)
         });
     });
