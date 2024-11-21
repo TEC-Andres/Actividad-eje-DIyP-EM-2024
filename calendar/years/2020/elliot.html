@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    .credits-container img {
+      max-width: calc(100% - 20px); /* 10px for each side of the border */
+      max-height: calc(100% - 20px); /* 10px for each side of the border */
+      width: auto;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>¡Elliot ha transicionado! Estoy tan orgulloso de el</h1>
+  <img src="img/elliot.jpg"/>
+  <div class="content">
+Page, un actor y productor canadiense de 33 años, también es conocido por sus papeles en las películas X-Men: La batalla final, X-Men: Días del futuro pasado e Inception así como en la reciente serie de Netflix Umbrella Academy. Tuvo su debut como director el año pasado con el documental There’s something in the water (Nytimes, 2020). Su impacto en la industria fue muy relevante y el hecho de que saliera del closet como hombre trans en diciembre del 2020 causó un gran revuelo, sobre todo sus papeles. La interpretación que dio a Viktor Hargreeves en The Umbrella Academy, generó conversaciones significativas. La serie incorporó este cambio en la trama, transformando al personaje de Vanya en Viktor durante la tercera temporada. Esta decisión fue bien recibida por muchos, ya que permitió reflejar la realidad del actor de una manera inclusiva y coherente con la historia. No obstante, la incorporación de esta transición también trajo críticas, se cuestionó si era necesario que el cambio de género del actor se reflejara en su personaje, argumentando que las historias deben priorizar la coherencia con el material original, en este caso, los cómics.
+
+  </div>
+  <a href="/calendar/years/2020/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>
