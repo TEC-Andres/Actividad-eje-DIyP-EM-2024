@@ -1,0 +1,24 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+	<title>calendar button-svg</title>
+	<defs>
+		<image width="256" height="58" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #000000 } 
+		.s1 { fill: #ececec } 
+		.t2 { font-size: 180px;fill: #033333;font-weight: 700;font-family: "Helvetica-Bold", "Helvetica" } 
+		.t3 { font-size: 47px;fill: #eeeeee;font-weight: 700;font-family: "Helvetica-Bold", "Helvetica" } 
+	</style>
+	<path id="Layer 1" class="s0" d=""/>
+	<path id="Shape 1" class="s1" d="m49.6 25.5l156 1.6c27.6 0 50.4 2.9 50.4 30.5v148.4c0 27.6-22.4 50-50 50h-156c-27.6 0-50-22.4-50-50v-148.4c0-27.6 22-32.1 49.6-32.1z"/>
+	<use id="hey (2)" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+	<text id="21" style="transform: matrix(1,0,0,1,41,219)" >
+		<tspan x="0" y="0" class="t2">2</tspan><tspan  y="0" class="t2">1
+</tspan>
+	</text>
+	<text id="2018" style="transform: matrix(1,0,0,1,128,44)" >
+		<tspan x="-52.3" y="0" class="t3">2</tspan><tspan  y="0" class="t3">0</tspan><tspan  y="0" class="t3">1</tspan><tspan  y="0" class="t3">8</tspan><tspan  y="0" class="t3">
+</tspan>
+	</text>
+</svg>
