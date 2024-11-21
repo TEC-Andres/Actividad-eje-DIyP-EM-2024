@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>¿Qué es esto?</h1>
+  <div class="content">
+Este es un calendario que me pertenece a mí, Hunter, ademas de poner las cosas que mas me gustan en este calendario. Hablo mucho del como se identifica la comunidad en los medios culturales que consumo.
+
+¿El por qué de esto? te preguntaras. La comunidad LGBTQA+ ha vivido momentos clave que han sido fundamentales en su lucha por la validación y la igualdad. A medida que avanzamos, es crucial reconocer los hitos que nos han definido, entre los cuales uno de los más significativos es la expresión artística, como la música, el arte y los medios de comunicación. Estas formas de expresión no solo han sido una forma de identidad para la comunidad, sino que también han marcado un punto de inflexión en la sociedad, desafiando normas y abriendo caminos hacia la inclusión. La lucha por la igualdad, la visibilidad y el respeto sigue siendo un proceso continuo, y a pesar de los desafíos, cada paso hacia adelante nos acerca más a un mundo donde la diversidad es celebrada y nunca cuestionada.
+
+Con esto, quiero mostrar que, año tras año, ha cambiado el trato y la percepción hacia la comunidad LGBTQA+. A través de diferentes temas, se presentan las reacciones de la sociedad ante la comunidad, las experiencias vividas y los aspectos que han sido positivos o negativos. Además, se destacan las acciones, leyes o eventos que han sido fundamentales en el proceso de visibilidad, aceptación e inclusión. Este análisis permite comprender los avances logrados y lo que aún falta por hacer para alcanzar un trato más justo y equitativo para todos.
+  </div>
+  <a href="/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>
