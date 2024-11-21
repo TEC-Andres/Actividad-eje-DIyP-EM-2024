@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>Defender</h1>
+  <iframe src="https://www.youtube.com/embed/NXW1waqRCb0?si=FlguDF6IrDCZmE9t" allowfullscreen></iframe>
+  <p>Si el video no aparece, dale click a "verlo en youtube"</p>
+  <div class="content">
+Voltron Legendary Defender (serie animada - 14 de diciembre 2018): En el año 2016 se estrenaría el reboot the la serie de Voltron en Netflix. En esta adaptación seguiríamos la historia de Shiro, Lance, Pidge, Hunk, Keith, Allura y Coran y como ellos se volverían un equipo. Durante la transmisión de la primera temporada, los fans de Voltron empezaron a notar el potencial de una relación entre dos de los personajes principales de la serie, Keith y Lance. Tanta fue la fama de esa pareja que los productores y animadores de la serie empezarían a bromear con la idea de hacerlos una pareja canónicamente en la serie. Muchos fans empezaron a especular en que la relación entre Lance y Keith se esclarecería en siguientes temporadas, pero los creadores nunca confirmaban ni negaban la existencia de esta relación, esto dio paso a uno de los casos más conocidos de queerbating en series animadas. Por mas que los fans esperaban que al final de la serie se confirmara la relación de Keith con Lance, los creadores nunca confirmaron nada. El único personaje que es canónicamente queer en Voltron Legendary Defender es Shiro quien se casó con su interés amoroso en la ultima temporada de la serie.
+  </div>
+  <a href="/calendar/years/2018/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>
