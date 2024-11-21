@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>She-ra and the princesses of power</h1>
+  <iframe src="https://www.youtube.com/embed/PiCJGXnEtIQ?si=wNQJDquhQKV2lcLH" allowfullscreen></iframe>
+  <p>Si el video no aparece, dale click a "verlo en youtube"</p>
+  <div class="content">
+    Fable (cancion de Gigi Perez - 25 de octubre 2024): Recientemente Gigi Perez sacó una canción titulada “Fable”, que en estos días ha empezado a tomar relevancia y ha creado controversias en redes sociales. La canción habla un poco de la experiencia de Gigi Perez y la relación complicada que tenía con su hermana. La canción a grandes rasgos habla sobre la complejidad de la relación que existe entre la religión y la comunidad LGBTQIA+. Como sabemos muchas religiones, creen que la homosexualidad y las identidades queer son producto del pecado, Gigi Perez en su canción expresa este sentimiento. La letra “Ah-ah, capital loss / Love was the law and religion was taught, I'm not bought / Feel when we argue, our skin starts to rot / Our skin starts to rot” habla de su inconformidad con como la religion trata a las identidades LGBTQIA+.
+  </div>
+  <a href="/calendar/years/2024/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>

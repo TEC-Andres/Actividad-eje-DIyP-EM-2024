@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>She-ra and the princesses of power</h1>
+  <iframe src="https://www.youtube.com/embed/Ek40XtVsO7g?si=b_wvCG5cgH6d3-94" allowfullscreen></iframe>
+  <p>Si el video no aparece, dale click a "verlo en youtube"</p>
+  <div class="content">
+    Spider-man: Across the Spider-verse (pelicula animada - 1 de junio 2023): A un año del estreno de “Spider-man: Across the Spider-verse” las personas aun siguen hablando del impacto que esta película ha tenido en la industria de la animación y en la cultura general. Una escena controversial en los medios fue una escena en la que en el fondo estaba colgado en una pared un poster que leia “Protect trans kids”. Esto no fue de mucho agrado para creadores de contenido de derecha, pero fue un gran logro para las personas trans. Anteriormente, ya se había tenido un debate similar a este en el que fans de Spider-man con ideales mas conservadores argumentaban que Spider-man no podía ser gay, a lo que muchas personas de la comunidad se quejaron. La verdad es que Stan Lee creo a Spider-man para representar a todos, sin importar su género, sexualidad, color de piel, etc.
+  </div>
+  <a href="/calendar/years/2024/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>

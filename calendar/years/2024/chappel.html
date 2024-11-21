@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>She-ra and the princesses of power</h1>
+  <iframe src="https://www.youtube.com/embed/i9OOwiFgNR0?si=oZpCmOnJi34qGnHK" allowfullscreen></iframe>
+  <p>Si el video no aparece, dale click a "verlo en youtube"</p>
+  <div class="content">
+    Chappell Roan (The Rise and Fall of a Midwest Princess - 04 de abril 2024): Despues de un año de haber sacado su album “The Rise and Fall of a Midwest Princess”, Chappell Roan fue lanzada a la fama cuando saco el video official de la letra de su canción “Good Luck, Babe!”. Esta canción es muy significativa para la comunidad sáfica, ya que habla de un romance lésbico y como una de las personas se rehúsa a reconocer la naturaleza de su relación con otra mujer. El álbum en su totalidad tiene mucha importancia en la comunidad LGBTQIA+, ya que todas sus canciones hablan de relaciones lésbicas o de experiencias con las que muchas personas queer se identifican. Otra de las canciones mas icónicas del álbum es “Pink Pony Club” que ha sido adoptada por la comunidad como un himno queer. Además de las letras de sus canciones, Chappell creo su personalidad escénica inspirada en las drag Queens.
+  </div>
+  <a href="/calendar/years/2024/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>
