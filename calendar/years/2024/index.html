@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas-Style Calendar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .calendar-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .month-nav {
+      display: flex;
+      gap: 10px;
+    }
+    .month-nav button {
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .month-nav button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      width: 14.28%;
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 10px;
+      height: 80px;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    td {
+      background-color: #f9f9f9;
+    }
+    .event {
+        display: block;
+        background-color: #770088;
+        color: white;
+        font-size: 12px;
+        border-radius: 5px;
+        padding: 4px;
+        margin-top: 5px;
+        text-decoration: none;
+        text-align: center;
+        }
+    .event:hover {
+        background-color: #6b007a;
+    }
+    .day-number {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    td {
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div class="calendar-container">
+    <div class="header">
+      <h2 id="year-display">2024</h2>
+      <div class="month-nav">
+        <button id="prev-month" disabled>←</button>
+        <button id="next-month">→</button>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>MON.</th>
+          <th>TUE.</th>
+          <th>WED.</th>
+          <th>THU.</th>
+          <th>FRI.</th>
+          <th>SAT.</th>
+          <th>SUN.</th>
+        </tr>
+      </thead>
+      <tbody id="calendar-body">
+        <!-- Calendar days will be dynamically inserted here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="calendar.js"></script>
+</body>
+</html>
