@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>Hoy, se perdio una vida a manos de la homobia</h1>
+  <iframe src="https://www.youtube.com/embed/s3coml8N1M4?si=kwFEvjFcfbuoSH4p" allowfullscreen></iframe>
+  <p>Si el video no aparece, dale click a "verlo en youtube"</p>
+  <div class="content">
+    En primero de octubre del 2022, le magistrade, Jesús Ociel Baena Saucedo, se convirtió en una figura destacada tanto en el ámbito político como en las redes sociales en México. Su notoriedad emergió a partir de su papel como la primera persona no binaria en ocupar una magistratura en América Latina, al integrarse al Tribunal Electoral del Estado de Aguascalientes. Su decisión de adoptar y promover el uso del lenguaje inclusivo en un cargo público de alta visibilidad desencadenó intensos debates en redes sociales y medios de comunicación.
+    La relevancia de Baena no se limitó a las redes sociales. En el ámbito político y jurídico, su presencia puso sobre la mesa discusiones sobre cómo el sistema judicial y electoral puede adaptarse para reconocer y proteger las identidades no binarias. Además, su visibilidad marcó un precedente para futuras generaciones de personas LGBTQA+ que buscan ocupar cargos de liderazgo o ser el ejemplo a seguir de la comunidad trans.
+      </div>
+  <a href="/calendar/years/2022/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>
