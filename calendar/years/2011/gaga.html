@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>Creo, que si nací así despues de todo</h1>
+  <iframe src="https://www.youtube.com/embed/wV1FrqwZyKw?si=_p0xylyJeJ_NEoOL" allowfullscreen></iframe>
+  <p>Si el video no aparece, dale click a "verlo en youtube"</p>
+  <div class="content">
+Lady Gaga (Born this Way - 23 de mayo 2011): Lady Gaga, icono LGBTQIA+ de los 2010’s, saca su segundo álbum de estudio “Born this way”, álbum que fue un tremendo éxito desde antes de su estreno el 23 de mayo. El álbum completo se volvería gran influencia en la cultura queer de los años 2000, ya que muchaos de los temas en los que Gaga se basó fueron acerca de sus propias vivencias como una mujer bisexual. Muchas de las canciones del álbum serian adoptaods. La canción “Born this way” contiene letras en donde Gaga explícitamente habla de su apoyo a la comunidad LGBTQIA+. Otras canciones del álbum hablan de la diversidad sexual, utiliza imágenes religiosas y critican a la sociedad de ese entonces. En su época, el álbum tuvo bastantes controversias por los temas que trataba y la personalidad de Gaga. Muchas de las personas mostraron su disgusto por el uso de referencias religiosas y el uso de palabras como “chola” y “orient made”.
+  </div>
+  <a href="/calendar/years/2011/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>

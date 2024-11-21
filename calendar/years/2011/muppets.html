@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>¿Será una marioneta, o un hombre?</h1>
+  <iframe src="https://www.youtube.com/embed/cRTjksM3YAs?si=7vzqaZDTyNB3kiwH" allowfullscreen></iframe>
+  <p>Si el video no aparece, dale click a "verlo en youtube"</p>
+  <div class="content">
+The Muppets (Man or Muppet - 04 de noviembre 2011): Los Muppets se estreno en 2011, película con la premisa de dos hermanos que se proponen ayudar a los muppets a salvar su teatro de un empresario que quiere derrumbarlo para buscar petróleo. Durante la película podemos observar varios números musicales. Una de las canciones mas memorables es la de “Man or Muppet” canción interpretada por los personajes Gary (un hombre) y su hermano Walter (un muppet). La canción fue nominada a un Oscar en 2011 a mejor canción original, premio el cual gano. Esta canción fue escrita por Bret McKenzie inspirado en la crisis de identidad que los personajes principales tendrían por cuestionarse el ser un hombre o un muppet. Como la letra de la canción puede ser aplicada para cualquier tipo de crisis de identidad, muchas personas trans la han interpretado como una canción que explica la experiencia trans. Las letras “I look into these eyes / And I don't recognize / The one I see inside / It's time for me to decide / Am I a man or am I a muppet?” pueden ser interpretadas como la reflexión de una persona trans que tiene que decidir entre transicionar o no.
+  </div>
+  <a href="/calendar/years/2011/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>Es un ¿papucho?</h1>
+  <iframe src="https://www.youtube.com/embed/n_60DfA41q4?si=cykSk-WY5wtyCF2p" allowfullscreen></iframe>
+  <p>Si el video no aparece, dale click a "verlo en youtube"</p>
+  <div class="content">
+Shrek 2 (Doris - 19 junio 2004): La secuela de la película Shrek, que fue un éxito en taquilla, regresa con sus personajes principales Shrek, Fiona y Burro. A este tan icónico trio se le añaden personajes secundarios, con menor influencia en la trama, pero aun así bastante tiempo en escena como lo son los personajes del Gato con Botas, el Príncipe Encantador y el Hada Madrina. Así como tenemos a estos personajes, también se nos presenta al personaje de la Hermanastra fea, o Doris como la vendríamos a conocer en entregas siguientes. En Shrek 2, Doris tiene un papel menor, en el cual trabaja de camarera en “La Manzana Envenenada”, tiene una pequeña conversación con un personaje secundario y ayuda a que la trama avance. Doris se presenta como una mujer masculina que, en comparación a como se representa al resto de personajes femeninos de la película, resalta bastante, ya que su masculinidad la hace sujeto de burla, siendo su mera existencia usada como un chiste. En años mas recientes, Doris se ha consolidado como un personaje que representa un símbolo de orgullo trans por personas de la misma comunidad.
+
+  </div>
+  <a href="/calendar/years/2011/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>
