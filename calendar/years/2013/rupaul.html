@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    .credits-container img {
+      max-width: calc(100% - 20px); /* 10px for each side of the border */
+      max-height: calc(100% - 20px); /* 10px for each side of the border */
+      width: auto;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>¡No puede ser! ¡La quinta temporada de Drag Race!</h1>
+  <img src="img/2013 pic 1.png"/>
+  <div class="content">
+RuPaul, a través de su icónico programa RuPaul's Drag Race, fue una figura clave en la visibilidad y empoderamiento de la comunidad LGBTQIA+ en 2013. Para ese entonces, Drag Race ya se había convertido en un programa de culto, no solo por su éxito en la televisión, sino también por su capacidad para llevar el arte del drag al mainstream y darle una plataforma en la que se celebraban la diversidad, la creatividad y la individualidad. RuPaul utilizó el programa para visibilizar las vidas de personas trans, queer y drag, mostrando sus luchas y triunfos mientras también ofrecía un espacio de visibilidad positiva. Drag Race no solo fue una competencia de entretenimiento, sino que se convirtió en una conversación cultural sobre la identidad de género, la aceptación y la importancia de desafiar las normas tradicionales. A través de su figura, RuPaul ayudó a empoderar a la comunidad LGBTQIA+ al abrir un diálogo sobre temas como la aceptación personal, el amor propio y la libertad de expresión, mientras promovía la idea de que todos podemos ser quienes queramos ser, independientemente de los estereotipos de género o las expectativas sociales.
+
+  </div>
+  <a href="/calendar/years/2013/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>

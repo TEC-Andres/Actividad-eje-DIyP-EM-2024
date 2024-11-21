@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Editable, Scrollable Credits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      overflow: hidden; /* Prevents scrolling of the body */
+    }
+
+    .credits-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      max-height: 80vh; /* Limits the container height */
+      overflow-y: auto; /* Enables scrolling inside the container */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2em;
+      color: #333;
+      pointer-events: none; /* Prevents interaction */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #5c6bc0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #3f4d8c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="credits-container">
+  <h1>¡Steven Universe!</h1>
+  <div class="content">
+En 2013, Steven Universe revolucionó la animación infantil al abordar temas como el amor, la identidad y la inclusión LGBTQIA+ de manera accesible y significativa. Creada por Rebecca Sugar, la serie destacó por ser una de las primeras en incluir relaciones queer explícitas, como la de Ruby y Sapphire, cuya fusión representa una pareja amorosa. La autora en ningún momento se limitó al mostrar y hay varias escenas como la canción "stronger than you", lanzada el 18 de agosto del 2017, que hablan del amor mutuo que se tienen las dos gemas fusionadas. Además, presentó un modelo familiar diverso con Steven creciendo en un entorno no convencional. Aparte, vendría un punto crucial del buen recibimiento de la serie y como es menos controvertida en comparación con otras franquicias con temáticas LGBTQA+, la razón es el que no especificaron el género de las gemas; esto, les permitió operar fuera de las estructuras binarias tradicionales del género resonando con personas no binarias y de género fluido.
+
+  </div>
+  <a href="/calendar/years/2013/index.html" class="button">Regresar al calendario</a>
+</div>
+
+</body>
+</html>
