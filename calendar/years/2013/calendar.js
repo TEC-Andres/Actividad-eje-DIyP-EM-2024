@@ -23,7 +23,7 @@ const events = {
   },
   "8-13": { 
     title: "Take me to Church",
-    link: "take me to church.html"
+    link: "take me to church copy.html"
   }
 };
 
